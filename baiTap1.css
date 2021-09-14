@@ -38,3 +38,9 @@ h1 {
 body {
     background-image: url(./img/background.jpeg);
 }
+.languages {
+    margin-top: 30px;
+}
+.typeLanguages {
+    margin-left: 20px;
+}
