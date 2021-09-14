@@ -32,3 +32,9 @@ h1 {
 .forgot:hover{
     text-decoration: underline;
 }
+.logo {
+    text-align: center;
+}
+body {
+    background-image: url(./img/background.jpeg);
+}
