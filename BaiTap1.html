@@ -7,7 +7,7 @@
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="baiTap1.css">
+    <link rel="stylesheet" href="./css/baiTap1.css">
     <script type="text/"></script>
     <script>
         isBool = true;
@@ -49,15 +49,15 @@
                 <label class="forgot" onclick="nextPage()">Quên mật khẩu ?</label>
             </div>
             <div style="text-align: center;">
-            <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+            <button type="submit" class="btn btn-primary" onclick="thongBao()">Đăng Nhập</button>
             </div>
         </form>
         <div class="languages" style="display: flex;">
-            <h5>Ngôn ngữ</h5>
             <div class="typeLanguages">
-                <input class="vietnamese" type="image" src="./img/220-vietnam.svg" style="width : 10px">
+                <h5>Ngôn ngữ</h5>
+                <img src="./img/220-vietnam.svg" alt="" width="20">
                 <a href="">Tiếng Việt</a> 
-                <input class="english" type="image" src="./img/226-united-states.svg" style="width : 10px">
+                <img src="./img/226-united-states.svg" width="20" alt="">
                 <a href="">Tiếng Anh</a> 
             </div>
         </div>
